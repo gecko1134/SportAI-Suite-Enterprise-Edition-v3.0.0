@@ -1,0 +1,112 @@
+# Core Dependencies
+streamlit==1.28.2
+streamlit-extras==0.3.5
+
+# Security
+cryptography==41.0.7
+bcrypt==4.1.2
+pyjwt==2.8.0
+python-jose==3.3.0
+passlib==1.7.4
+
+# Database
+sqlalchemy==2.0.23
+alembic==1.13.0
+sqlite3-python==1.0.0
+
+# AI/ML Modules
+numpy==1.24.3
+pandas==2.1.4
+scikit-learn==1.3.2
+tensorflow==2.15.0
+torch==2.1.2
+transformers==4.36.2
+prophet==1.1.5
+statsmodels==0.14.1
+
+# Data Processing
+openpyxl==3.1.2
+xlrd==2.0.1
+python-dateutil==2.8.2
+pytz==2023.3
+holidays==0.39
+
+# Visualization
+plotly==5.18.0
+matplotlib==3.8.2
+seaborn==0.13.0
+altair==5.2.0
+
+# API & Web
+fastapi==0.109.0
+uvicorn==0.25.0
+requests==2.31.0
+httpx==0.25.2
+aiohttp==3.9.1
+websocket-client==1.7.0
+
+# Email & Communications
+python-dotenv==1.0.0
+sendgrid==6.11.0
+twilio==8.11.0
+slack-sdk==3.26.1
+
+# File Processing
+python-multipart==0.0.6
+python-docx==1.1.0
+PyPDF2==3.0.1
+reportlab==4.0.8
+Pillow==10.1.0
+
+# Payment Processing
+stripe==7.8.0
+square==30.0.0
+
+# Calendar & Scheduling
+icalendar==5.0.11
+python-crontab==3.0.0
+schedule==1.2.0
+
+# Monitoring & Logging
+sentry-sdk==1.39.1
+prometheus-client==0.19.0
+python-json-logger==2.0.7
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-asyncio==0.21.1
+pytest-mock==3.12.0
+faker==21.0.0
+
+# Development Tools
+black==23.12.1
+flake8==7.0.0
+mypy==1.7.1
+pre-commit==3.6.0
+autopep8==2.0.4
+
+# Caching
+redis==5.0.1
+python-memcached==1.62
+
+# Cloud Services (Optional)
+boto3==1.34.11  # AWS
+google-cloud-storage==2.13.0  # Google Cloud
+azure-storage-blob==12.19.0  # Azure
+
+# Rate Limiting
+slowapi==0.1.9
+python-limiter==0.2.0
+
+# Background Tasks
+celery==5.3.4
+python-rq==1.15.1
+
+# Utilities
+pydantic==2.5.3
+python-decouple==3.8
+marshmallow==3.20.1
+validators==0.22.0
+phonenumbers==8.13.27
+nameparser==1.1.3

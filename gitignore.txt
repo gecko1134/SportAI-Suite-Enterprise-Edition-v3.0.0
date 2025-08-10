@@ -1,0 +1,170 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+.env/
+
+# Streamlit
+.streamlit/secrets.toml
+*.pkl
+
+# Database
+database/
+*.db
+*.sqlite
+*.sqlite3
+*.json
+!users_example.json
+
+# Logs
+logs/
+*.log
+audit_logs/
+
+# Configuration
+configurations/
+.salt
+license.key
+*.key
+*.pem
+*.crt
+
+# Environment Variables
+.env
+.env.local
+.env.production
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Testing
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+htmlcov/
+
+# Documentation
+docs/_build/
+site/
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+*.orig
+
+# Uploads
+uploads/
+media/
+static/collected/
+
+# Cache
+.cache/
+*.cache
+redis-data/
+
+# Security
+*.pem
+*.key
+*.crt
+*.csr
+certificates/
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# CI/CD
+.github/workflows/local/
+.gitlab-ci-local/
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Backup Files
+*.backup
+*.bk
+backup/
+backups/
+
+# Session Files
+sessions/
+flask_session/
+
+# Node (if using any JS tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Production Data
+production_data/
+customer_data/
+facility_data/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Package Files
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# Custom Module Development
+modules_dev/
+test_modules/
+
+# License Files (keep templates)
+!license_template.key
+
+# Keep these
+!.gitkeep
+!requirements.txt
+!requirements-dev.txt
